@@ -21,6 +21,7 @@ module load sratoolkit/3.0.1
 # files, directories
 OUTDIR=../../data/reads_gmap
     mkdir -p ${OUTDIR}
+TMPDIR=../../data/reads_gmap
 
 ACCLIST=../../metadata/metadata.csv
 

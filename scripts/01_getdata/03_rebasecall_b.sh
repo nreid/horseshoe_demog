@@ -21,10 +21,10 @@ module load guppy/6.3.8-GPU
 
 
 # directories, files
-# promethion run: 29May2019_HsC-male-blood_PAD59173_PR002_LSK109
-RAWDIR=/scratch/nreid/blood/fast5_pass/
+# promethion run: 2019NOV13_Limulus_malemuscle_PAE06115_LSK109
+RAWDIR=/scratch/nreid/muscle/fast5_pass/
 
-OUTDIR=../../data/rebasecalled_reads/blood
+OUTDIR=../../data/rebasecalled_reads/muscle
     mkdir -p ${OUTDIR}
 
 # run guppy
